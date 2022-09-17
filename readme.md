@@ -7,5 +7,7 @@ Applications do not need any special knowledge to invoke closures. They are repr
 ## Directory Structure
 
 - [clsr.h](clsr.h): The code
+- [doc/](doc): Documentation
+- [example/](example): Example code
 - [LICENSE](LICENSE): MIT License
 - [readme.md](readme.md): You are here!
