@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "myclass.h"
+#include <stdio.h>
 
 int main(void) {
     MyClass *mc = myclass_init(0);

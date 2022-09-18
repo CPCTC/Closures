@@ -13,4 +13,4 @@ mc = 1
 - [myclass.h](myclass.h): Defines the public interface of a class named `MyClass`
 - [myclass.c](myclass.c): Contains the implementation of `MyClass`
 - [main.c](main.c): A short driver program showcasing the use of the class `MyClass`
-- [clsr.c](clsr.c): Translation unit implementing Clsr
+- [clsr.c](clsr.c): Translation unit implementing the library

@@ -11,4 +11,4 @@ Data = 2
 
 ## Files:
 - [main.c](main.c): Defines a short program using closures
-- [clsr.c](clsr.c): Translation unit implementing Clsr
+- [clsr.c](clsr.c): Translation unit implementing the library

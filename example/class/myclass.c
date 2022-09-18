@@ -1,5 +1,5 @@
 #include "myclass.h"
-#include "../../clsr.h"
+#include "../../closure.h"
 #include <stdlib.h>
 
 typedef struct {
