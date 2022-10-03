@@ -6,7 +6,7 @@ Applications do not need any special knowledge to invoke closures. They are repr
 
 ## Directory Structure
 
-- [closure.h](closure.h): The code
+- [closures.h](closures.h): The code
 - [doc/](doc): Documentation
 - [example/](example): Example code
 - [LICENSE](LICENSE): MIT License

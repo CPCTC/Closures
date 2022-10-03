@@ -1,4 +1,4 @@
-#include "../../closure.h"
+#include "../../closures.h"
 #include <stdio.h>
 
 void print_val(void);

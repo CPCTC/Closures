@@ -29,11 +29,11 @@ void *CLSR_DATA;  // With additional magic properties
 ```
 When referenced by a function wrapped by a closure created with *clsr_capture*, holds the value of the *data* argument to the call to *clsr_capture* that created the closure. CLSR_DATA is thread-local.
 
-Warning: *CLSR_DATA may be clobbered by a call to any function in a translation unit that does not include closure.h.* Therefore, functions that want to read CLSR_DATA should first save its value to a local variable as soon as possible.
+Warning: *CLSR_DATA may be clobbered by a call to any function in a translation unit that does not include closures.h.* Therefore, functions that want to read CLSR_DATA should first save its value to a local variable as soon as possible.
 
 Macro `CLSR_IMPLEMENTATION`:
 ---
 ```c
 // undefined
 ```
-If this macro is defined before including closure.h, then the library's functions are defined by the header. When used this way, closure.h must be the first header included.
+If this macro is defined before including closures.h, then the library's functions are defined by the header. When used this way, closures.h must be the first header included.
