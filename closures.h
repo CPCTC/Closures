@@ -1,3 +1,6 @@
+// Copyright (c) 2022 Seth Galasso
+// SPDX-License-Identifier: MIT
+
 #pragma once
 
 //
